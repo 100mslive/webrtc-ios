@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'Multiple'}
   s.author           = 'WebRTC project authors. Packaged by 100ms'
   s.source           = { :http => 'https://github.com/100mslive/webrtc-ios/releases/download/1.0.4898/WebRTC.xcframework.zip',
-  						 :sha256 => '73eab4d85dec01b900f157381f68b45a3753bbeed3ac7b78037282f174bfb89a'}
+  						 :sha256 => 'd1f4cdd48ef371bcb4dcab76db66306ac1d8e3d251d4947aa7511efb22c865f4'}
 
   s.ios.deployment_target = '12.0'
   s.vendored_frameworks = 'WebRTC.xcframework'

@@ -1,4 +1,4 @@
-# WebRTC
+# webrtc
 ```
 Copyright (c) 2011, The WebRTC project authors. All rights reserved.
 
@@ -216,7 +216,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
       To apply the Apache License to your work, attach the following
       boilerplate notice, with the fields enclosed by brackets &quot;[]&quot;
-      replaced with your own identifying information. (Don't include
+      replaced with your own identifying information. (Don&#x27;t include
       the brackets!)  The text should be enclosed in the appropriate
       comment syntax for the file format. We also recommend that a
       file or class name and description of purpose be included on the
@@ -322,7 +322,7 @@ record keeping.)
  *    &quot;This product includes software developed by the OpenSSL Project
  *    for use in the OpenSSL Toolkit (http://www.openssl.org/)&quot;
  *
- * THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+ * THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS&#x27;&#x27; AND ANY
  * EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
  * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
  * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR
@@ -359,7 +359,7 @@ record keeping.)
  * included with this distribution is covered by the same copyright terms
  * except that the holder is Tim Hudson (tjh@cryptsoft.com).
  * 
- * Copyright remains Eric Young's, and as such any Copyright notices in
+ * Copyright remains Eric Young&#x27;s, and as such any Copyright notices in
  * the code are not to be removed.
  * If this package is used in a product, Eric Young should be given attribution
  * as the author of the parts of the library used.
@@ -378,13 +378,13 @@ record keeping.)
  *    must display the following acknowledgement:
  *    &quot;This product includes cryptographic software written by
  *     Eric Young (eay@cryptsoft.com)&quot;
- *    The word 'cryptographic' can be left out if the rouines from the library
+ *    The word &#x27;cryptographic&#x27; can be left out if the rouines from the library
  *    being used are not cryptographic related :-).
  * 4. If you include any Windows specific code (or a derivative thereof) from 
  *    the apps directory (application code) you must include an acknowledgement:
  *    &quot;This product includes software written by Tim Hudson (tjh@cryptsoft.com)&quot;
  * 
- * THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND
+ * THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS&#x27;&#x27; AND
  * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
  * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
  * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
@@ -442,29 +442,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-The code in third_party/sike also carries the MIT license:
-
-Copyright (c) Microsoft Corporation. All rights reserved.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the &quot;Software&quot;), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE
 
 
 Licenses for support code
@@ -538,11 +515,44 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ```
 
+# crc32c
+```
+Copyright 2017, The CRC32C Authors.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+&quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+```
+
 # fft
 ```
 /*
  * Copyright(c)1995,97 Mark Olesen &lt;olesen@me.QueensU.CA&gt;
- *    Queen's Univ at Kingston (Canada)
+ *    Queen&#x27;s Univ at Kingston (Canada)
  *
  * Permission to use, copy, modify, and distribute this software for
  * any purpose without fee is hereby granted, provided that this
@@ -551,13 +561,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  * copies of the supporting documentation for such software.
  *
  * THIS SOFTWARE IS BEING PROVIDED &quot;AS IS&quot;, WITHOUT ANY EXPRESS OR
- * IMPLIED WARRANTY.  IN PARTICULAR, NEITHER THE AUTHOR NOR QUEEN'S
+ * IMPLIED WARRANTY.  IN PARTICULAR, NEITHER THE AUTHOR NOR QUEEN&#x27;S
  * UNIVERSITY AT KINGSTON MAKES ANY REPRESENTATION OR WARRANTY OF ANY
  * KIND CONCERNING THE MERCHANTABILITY OF THIS SOFTWARE OR ITS
  * FITNESS FOR ANY PARTICULAR PURPOSE.
  *
  * All of which is to say that you can do what you like with this
- * source code provided you don't try to sell it as your own and you
+ * source code provided you don&#x27;t try to sell it as your own and you
  * include an unaltered copy of this message (including the
  * copyright).
  *
@@ -568,24 +578,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ```
 
-# fft4g
-```
-/*
- * http://www.kurims.kyoto-u.ac.jp/~ooura/fft.html
- * Copyright Takuya OOURA, 1996-2001
- *
- * You may use, copy, modify and distribute this code for any purpose (include
- * commercial use) and without fee. Please refer to this package when you modify
- * this code.
- */
-
-```
-
 # fiat
 ```
 The MIT License (MIT)
 
-Copyright (c) 2015-2016 the fiat-crypto authors (see
+Copyright (c) 2015-2020 the fiat-crypto authors (see
 https://github.com/mit-plv/fiat-crypto/blob/master/AUTHORS).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -649,6 +646,38 @@ SOFTWARE.
  * Computer Science, Speech Group
  * Chengxiang Lu and Alex Hauptmann
  */
+
+```
+
+# libaom
+```
+Copyright (c) 2016, Alliance for Open Media. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in
+   the documentation and/or other materials provided with the
+   distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+&quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
 
 ```
 
@@ -839,7 +868,7 @@ The LLVM Project is under the Apache License v2.0 with LLVM Exceptions:
 
       To apply the Apache License to your work, attach the following
       boilerplate notice, with the fields enclosed by brackets &quot;[]&quot;
-      replaced with your own identifying information. (Don't include
+      replaced with your own identifying information. (Don&#x27;t include
       the brackets!)  The text should be enclosed in the appropriate
       comment syntax for the file format. We also recommend that a
       file or class name and description of purpose be included on the
@@ -1155,7 +1184,7 @@ The LLVM Project is under the Apache License v2.0 with LLVM Exceptions:
 
       To apply the Apache License to your work, attach the following
       boilerplate notice, with the fields enclosed by brackets &quot;[]&quot;
-      replaced with your own identifying information. (Don't include
+      replaced with your own identifying information. (Don&#x27;t include
       the brackets!)  The text should be enclosed in the appropriate
       comment syntax for the file format. We also recommend that a
       file or class name and description of purpose be included on the
@@ -1394,6 +1423,53 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ```
 
+# nasm
+```
+NASM is now licensed under the 2-clause BSD license, also known as the
+simplified BSD license.
+
+    Copyright 1996-2010 the NASM Authors - All rights reserved.
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following
+    conditions are met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+      
+      THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+      CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES,
+      INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+      MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+      DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+      CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+      SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+      NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+      LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+      HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+      CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+      OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+      EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+```
+
+# ooura
+```
+/*
+ * http://www.kurims.kyoto-u.ac.jp/~ooura/fft.html
+ * Copyright Takuya OOURA, 1996-2001
+ *
+ * You may use, copy, modify and distribute this code for any purpose (include
+ * commercial use) and without fee. Please refer to this package when you modify
+ * this code.
+ */
+
+```
+
 # opus
 ```
 Copyright 2001-2011 Xiph.Org, Skype Limited, Octasic,
@@ -1418,7 +1494,7 @@ products derived from this software without specific prior written
 permission.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+``AS IS&#x27;&#x27; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
 LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
 A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
 OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
@@ -1459,7 +1535,7 @@ FFTPACK license:
 http://www.cisl.ucar.edu/css/software/fftpack5/ftpk.html
 
 Copyright (c) 2004 the University Corporation for Atmospheric
-Research (&quot;UCAR&quot;). All rights reserved. Developed by NCAR's
+Research (&quot;UCAR&quot;). All rights reserved. Developed by NCAR&#x27;s
 Computational and Information Systems Laboratory, UCAR,
 www.cisl.ucar.edu.
 
@@ -1467,7 +1543,7 @@ Redistribution and use of the Software in source and binary forms,
 with or without modification, is permitted provided that the
 following conditions are met:
 
-- Neither the names of NCAR's Computational and Information Systems
+- Neither the names of NCAR&#x27;s Computational and Information Systems
 Laboratory, the University Corporation for Atmospheric Research,
 nor the names of its sponsors or contributors may be used to
 endorse or promote products derived from this Software without
@@ -1553,7 +1629,7 @@ contributors may be used to endorse or promote products derived from
 this software without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+``AS IS&#x27;&#x27; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
 LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
 A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION
 OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
@@ -1602,7 +1678,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  * Hi Wilco,
  * I saw your sqrt routine from several web sites, including
  * http://www.finesse.demon.co.uk/steven/sqrt.html.
- * Just wonder if there's any copyright information with your Successive
+ * Just wonder if there&#x27;s any copyright information with your Successive
  * approximation routines, or if I can freely use it for any purpose.
  * Thanks.
  * Kevin
@@ -1610,48 +1686,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ```
 
-# usrsctp
-```
-(Copied from the COPYRIGHT file of
-https://code.google.com/p/sctp-refimpl/source/browse/trunk/COPYRIGHT)
---------------------------------------------------------------------------------
-
-Copyright (c) 2001, 2002 Cisco Systems, Inc.
-Copyright (c) 2002-12 Randall R. Stewart
-Copyright (c) 2002-12 Michael Tuexen
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions
-are met:
-
-1. Redistributions of source code must retain the above copyright
-   notice, this list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright
-   notice, this list of conditions and the following disclaimer in the
-   documentation and/or other materials provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
-OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
-HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
-OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGE.
-
-```
-
 # zlib
 ```
-version 1.2.11, January 15th, 2017
+version 1.2.12, March 27th, 2022
 
-Copyright (C) 1995-2017 Jean-loup Gailly and Mark Adler
+Copyright (C) 1995-2022 Jean-loup Gailly and Mark Adler
 
-This software is provided 'as-is', without any express or implied
+This software is provided &#x27;as-is&#x27;, without any express or implied
 warranty.  In no event will the authors be held liable for any damages
 arising from the use of this software.
 
@@ -1669,3 +1710,21 @@ freely, subject to the following restrictions:
 
 ```
 
+
+# simulcast encoder factory
+
+Copyright 2019-2022, Wandbox LLC (Original Author)
+Copyright 2019-2022, tnoho (Original Author)
+Copyright 2019-2022, Shiguredo Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

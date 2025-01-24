@@ -3,18 +3,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "WebRTC",    
+    name: "HMSWebRTC",    
     products: [
         .library(
-            name: "WebRTC",
-            targets: ["WebRTC"]),
+            name: "HMSWebRTC",
+            targets: ["HMSWebRTC"]),
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "WebRTC", 
-            url: "https://github.com/100mslive/webrtc-ios/releases/download/1.0.6172/WebRTC.xcframework.zip",
-            checksum: "4b4e0d6fe7934deb544ec0c812bf00665c8b57b210573ad58be9e7d7c4c590f6"
+            name: "HMSWebRTC", 
+            url: "https://github.com/100mslive/webrtc-ios/releases/download/1.0.6173/HMSWebRTC.xcframework.zip",
+            checksum: "629db2db22918b716175886454aaa3c0c1f03b0761578ba89cab257d4100e278"
         )        
     ]
 )
